@@ -1,0 +1,38 @@
+body{
+    background-color: #122935;
+}
+::placeholder{
+    color: lightslategrey !important;
+}
+input:focus{
+    border-color:#c99128 !important;
+    box-shadow: #c99128 0px 2px 3px 1px !important;
+}
+input{
+    color: #c99128 !important;
+}
+button{
+    color: #c99128 !important;
+    border: 1px solid #c99128 !important;
+    transition: .5s;
+}
+button:hover{
+    background-color: #c99128 !important;
+    color: #122935 !important;
+}
+a{
+    all: unset;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+.form-body{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+nav{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+.color-second{
+    color: #c99128;
+}
